@@ -3,9 +3,9 @@ import { useNavigation } from "@react-navigation/native";
 
 import { Feather } from "@expo/vector-icons";
 
-import { Container, MenuButton, Title } from "./styled";
+import { Container, MenuButton, Title } from "./styles";
 
-export default function Header({ title }) {
+export function Header({ title }) {
   const navigation = useNavigation();
 
   return (
